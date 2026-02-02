@@ -1,0 +1,817 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16174 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-stran" at "2026-02-02T19:17:37.000488Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-02-02T19:17:37Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+G:/GITHUP/Ultimate-Tetris-3D-Unity
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56631
+-licensingIpc
+LicenseClient-stran
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: G:/GITHUP/Ultimate-Tetris-3D-Unity
+G:/GITHUP/Ultimate-Tetris-3D-Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4920]  Target information:
+
+Player connection [4920]  * "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 1472064753 [EditorId] 1472064753 [Version] 1048832 [Id] WindowsEditor(7,Ghareeb) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4920] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4920] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/GITHUP/Ultimate-Tetris-3D-Unity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Ti (ID=0x2d04)
+    Vendor:   NVIDIA
+    VRAM:     16051 MB
+    Driver:   32.0.15.9174
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002542 seconds.
+- Loaded All Assemblies, in  0.755 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.777 seconds
+Domain Reload Profiling: 1529ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (321ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (313ms)
+				TypeCache.ScanAssembly (287ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (778ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (683ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (101ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              5af797a24dcf4fbbbbf7cf41bc4cfaf5
+  Correlation Id:          8cda8903196e05e92d7a391303223f2e
+  External correlation Id: 336780973251161901
+  Machine Id:              mhPnH16mwgaa4n2vHrJnpNbZ6Zs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-stran" (connect: 0.00s, validation: 0.00s, handshake: 3.17s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-stran-notifications" at "2026-02-02T19:17:40.1769019Z"
+[Licensing::Module] Licensing Background thread has ended after 3.18s
+[Licensing::Module] Licensing is initialized (took 0.23s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-S6VB-6VNM-MCA7-YRJZ-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 11270200047816-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.287 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.977 seconds
+Domain Reload Profiling: 2260ms
+	BeginReloadAssembly (528ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (603ms)
+		LoadAssemblies (469ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (195ms)
+			BuildScriptInfoCaches (51ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (978ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (781ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (184ms)
+			ProcessInitializeOnLoadAttributes (489ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4111 unused Assets / (6.2 MB). Loaded Objects now: 4663.
+Memory consumption went from 111.6 MB to 105.4 MB.
+Total: 19.719700 ms (FindLiveObjects: 0.890500 ms CreateObjectMapping: 1.123300 ms MarkObjects: 12.364000 ms  DeleteObjects: 5.338200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20989.951161 seconds.
+  path: Assets/Resources/Z2.prefab
+  artifactKey: Guid(08a27e20b1dfd4e6aa6ddb9b64a9033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Z2.prefab using Guid(08a27e20b1dfd4e6aa6ddb9b64a9033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe49aefa76be64269062a017ff8a600c') in 0.1641825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/T.prefab
+  artifactKey: Guid(9336f9799086c48969588c424eb4260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/T.prefab using Guid(9336f9799086c48969588c424eb4260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0e6926b662759de4e67c71c13b01a82') in 0.0408957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/O.prefab
+  artifactKey: Guid(4a17950ef5b8e46dfa64b099a87ecd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/O.prefab using Guid(4a17950ef5b8e46dfa64b099a87ecd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '018ded113889e23917049ef133ebea65') in 0.0300023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (3.1 MB). Loaded Objects now: 4674.
+Memory consumption went from 112.5 MB to 109.5 MB.
+Total: 7.984700 ms (FindLiveObjects: 0.476900 ms CreateObjectMapping: 0.273400 ms MarkObjects: 5.912500 ms  DeleteObjects: 1.319400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.596220 seconds.
+  path: Assets/Tetris-Block-Rotation.png
+  artifactKey: Guid(4617aa2391b4f5a499a989f1d798e253) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tetris-Block-Rotation.png using Guid(4617aa2391b4f5a499a989f1d798e253) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80d133c968f9b8cc2081157e2e09978a') in 0.2800339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/19.png
+  artifactKey: Guid(d6e96d9bdc20d5a4d9e7756377207991) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/19.png using Guid(d6e96d9bdc20d5a4d9e7756377207991) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bc518b4883752d4535a488f9b737e4c') in 0.178053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Image/img_Star_yellow_1.prefab
+  artifactKey: Guid(2776b032c896f23499239e611314fce3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Image/img_Star_yellow_1.prefab using Guid(2776b032c896f23499239e611314fce3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a403131f6e03bf8c9a21677c0c354920') in 0.1960606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Skybox/Textures/CloudyCrown_Sunset_Right.png
+  artifactKey: Guid(7f934c5ce832dfb4991233d48e1cd7e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Skybox/Textures/CloudyCrown_Sunset_Right.png using Guid(7f934c5ce832dfb4991233d48e1cd7e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9582aad0642e2ee38fe325ec74586a7') in 0.0261021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/17.png
+  artifactKey: Guid(16784aa5cf0682f44be99ada7e87304b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/17.png using Guid(16784aa5cf0682f44be99ada7e87304b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c00f6787ca2fc3cb432d21fa9503161') in 0.1585047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_RightPage.prefab
+  artifactKey: Guid(ed59e3bb23f69ce4fb9dc9a59bd1357f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_RightPage.prefab using Guid(ed59e3bb23f69ce4fb9dc9a59bd1357f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a854f3f06b621a3e6603a694a1706bfc') in 0.2167103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/45.png
+  artifactKey: Guid(25444a6834aea704eb09429b7affd47a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/45.png using Guid(25444a6834aea704eb09429b7affd47a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aaf6ecbdcfd3864e3e390c48ab258f63') in 0.2011386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_ShareLink.prefab
+  artifactKey: Guid(85a649567faa58b46b54fcf53a95503f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_ShareLink.prefab using Guid(85a649567faa58b46b54fcf53a95503f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f17fd2d2a6223fa0fbcb16d523c2e899') in 0.9225025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/1.png
+  artifactKey: Guid(fc55b8018fa0f5f4898efb6f1ce46f4f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/1.png using Guid(fc55b8018fa0f5f4898efb6f1ce46f4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7da042f390729fa2272798bf429d38bf') in 0.0808392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/5.png
+  artifactKey: Guid(4ec3edd0a838f44438fde537cafb14b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/5.png using Guid(4ec3edd0a838f44438fde537cafb14b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bc9157788017d2ab5a5e0c71e7839ad') in 0.1129002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132901 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/13.png
+  artifactKey: Guid(a24ac9fa03c271a45b41ac503d801537) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/13.png using Guid(a24ac9fa03c271a45b41ac503d801537) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e6d37c78ba17e6a85f9afd63e67fe90') in 0.0662227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/15.png
+  artifactKey: Guid(b80c8e76553781a4883cd0261c67173a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/15.png using Guid(b80c8e76553781a4883cd0261c67173a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f4671fa3df29d7bead8fb5c37fd4312') in 0.1408083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/19.png
+  artifactKey: Guid(bbdc46b42a6dbab4b8eaea8bd919846d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/19.png using Guid(bbdc46b42a6dbab4b8eaea8bd919846d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e1f738a37ebd3f4e97a0c28a64de53d') in 0.088377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/14.png
+  artifactKey: Guid(6a57c46f70a4bf64383ca6d99115f827) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/14.png using Guid(6a57c46f70a4bf64383ca6d99115f827) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eadc0aab4f2b4af7110e3f80856dbe4d') in 0.1117723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062982 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/22.png
+  artifactKey: Guid(47443b6c6d9abb24b8554e653ab5cfc4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/22.png using Guid(47443b6c6d9abb24b8554e653ab5cfc4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c664929a1b60fe65f1489b2b5145790') in 0.0732901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/24.png
+  artifactKey: Guid(f76d62c8a4b37ab4b9cb4f474fcfd9dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/24.png using Guid(f76d62c8a4b37ab4b9cb4f474fcfd9dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2215314dc5b13db7b3ce6d4185b68302') in 0.0553408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/27.png
+  artifactKey: Guid(6387917110e84cd4cbdefc66e0c1b261) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/27.png using Guid(6387917110e84cd4cbdefc66e0c1b261) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12bb1cb35f64487784ef08b28588b6a7') in 0.1819598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179139 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/31.png
+  artifactKey: Guid(1c9160270d8205d47b6314353152b40e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/31.png using Guid(1c9160270d8205d47b6314353152b40e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '140c4f51cc113abf16b87f872003d000') in 0.0586604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/35.png
+  artifactKey: Guid(20fefba889dd91245b095f2ec532e9a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/35.png using Guid(20fefba889dd91245b095f2ec532e9a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80e5a399416192de75823d0a0c8885d9') in 0.0540215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/37.png
+  artifactKey: Guid(adc87165ae9898c4aa140c2d7fdba83f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/37.png using Guid(adc87165ae9898c4aa140c2d7fdba83f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5e63c3ea56151d9a1b5e9be4a9d80fe') in 0.0875409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/36.png
+  artifactKey: Guid(c3ddee68680448148be4f4fd292ffcec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/36.png using Guid(c3ddee68680448148be4f4fd292ffcec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4558b7c6cdcadcb5e6d80a28cfed2e4') in 0.0663336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200945 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/40.png
+  artifactKey: Guid(764d5edf212a7a94ba4a62daf263d8af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/40.png using Guid(764d5edf212a7a94ba4a62daf263d8af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '373afbe075e83e49ef27222a8f1842dc') in 0.0601361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/41.png
+  artifactKey: Guid(df5dc0a8c82f6a34d8598be46fb1a5b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/41.png using Guid(df5dc0a8c82f6a34d8598be46fb1a5b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e37463bacef56e512692aefdd312584d') in 0.0484438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/46.png
+  artifactKey: Guid(a36ee9ea0c7ca7640b3373ec1bf69097) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/46.png using Guid(a36ee9ea0c7ca7640b3373ec1bf69097) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28997222471c4204ce8d4f42986068b6') in 0.2053518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.162054 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/5.png
+  artifactKey: Guid(ed111f2d5e576844d91d87f71d4a0530) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/5.png using Guid(ed111f2d5e576844d91d87f71d4a0530) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c42a38d966f98958c113fd659b85fd0b') in 0.0870138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/7.png
+  artifactKey: Guid(57ef460b3939a3d4fb817dbc139afec0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/7.png using Guid(57ef460b3939a3d4fb817dbc139afec0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d23eeb15d3c55cf388fd98eeb7cccee') in 0.2507937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/8.png
+  artifactKey: Guid(8ba8967dd5aa45d4ab3729a69ac298e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/8.png using Guid(8ba8967dd5aa45d4ab3729a69ac298e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3369677926dc72968833d07d36a52886') in 0.067215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078726 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/14.png
+  artifactKey: Guid(1f0d71ce560ecee46aa67f34ad4ed127) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/14.png using Guid(1f0d71ce560ecee46aa67f34ad4ed127) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8719593dc7bd984b6fed4c980f084ad3') in 0.0880283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/2.png
+  artifactKey: Guid(0f5d4b4459da917479af62504277218e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/2.png using Guid(0f5d4b4459da917479af62504277218e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ed136c75df269c4332031c9a7b1fccf') in 0.1731642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/16.png
+  artifactKey: Guid(eeb8295febacfce469b7bce6281ee95d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/16.png using Guid(eeb8295febacfce469b7bce6281ee95d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e7ffd76e5a99d9ed203b4145098eae4') in 0.1231383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091848 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/23.png
+  artifactKey: Guid(f6b31bd2ac0cdcc47937dfe37e051bed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/23.png using Guid(f6b31bd2ac0cdcc47937dfe37e051bed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ffca7d53a963242c2bdedfb6699249e') in 0.1983546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/25.png
+  artifactKey: Guid(a066b8404b7aa1646826ad5bb265c516) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/25.png using Guid(a066b8404b7aa1646826ad5bb265c516) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5457dd8dbdd30e07c23f71123bf03679') in 0.0916526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/4.png
+  artifactKey: Guid(7a0532d85744a4d4582b6fdc94a75878) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/4.png using Guid(7a0532d85744a4d4582b6fdc94a75878) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73e0e49a5eff048cce5541663e561c78') in 0.0551392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133220 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/9.png
+  artifactKey: Guid(bdefc62aae128814ebdd6556858cc7bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/9.png using Guid(bdefc62aae128814ebdd6556858cc7bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6eec8d95099af20888c1f9e7bb3e4e5c') in 0.5815909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Music/8 Bit Mozart (Vol 1)/Ogg/Rondo Alla Turca LOOP.ogg
+  artifactKey: Guid(38c9aa17db38db041984b6c21d805b1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Music/8 Bit Mozart (Vol 1)/Ogg/Rondo Alla Turca LOOP.ogg using Guid(38c9aa17db38db041984b6c21d805b1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '494303d8f43443da718eb783d47a2b51') in 0.6327286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.782520 seconds.
+  path: Assets/Materials/Cloud2.mat
+  artifactKey: Guid(5c8ad53f9a9f940d5b2c7ce41c3f1740) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Cloud2.mat using Guid(5c8ad53f9a9f940d5b2c7ce41c3f1740) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '008d48b920033c5aefb7e14972e75e24') in 0.0412029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_9.prefab
+  artifactKey: Guid(2a295393502dfcc408f59294eaf31811) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_9.prefab using Guid(2a295393502dfcc408f59294eaf31811) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dd78ba21bcbbb59942058dbbac3a706') in 0.1039414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/cube.prefab
+  artifactKey: Guid(2d32e83b5dd414f7aa1ad53408997e11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/cube.prefab using Guid(2d32e83b5dd414f7aa1ad53408997e11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2caaa26790a8a23aa90353559471a253') in 0.0605138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/24.png
+  artifactKey: Guid(23a6f207cabeafe4b84ef1a87cd61bff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/24.png using Guid(23a6f207cabeafe4b84ef1a87cd61bff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0671251f0d9ccc4438d5aabc040844f') in 0.0772964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(deac80e34eb314406b365f9cc4b09fc9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Main.unity using Guid(deac80e34eb314406b365f9cc4b09fc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ce188093700a3acb5024e551c66f667') in 0.0222699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Skybox/Textures/CloudyCrown_Sunset_Down.png
+  artifactKey: Guid(dd10416b224641b459fe04b5eb7aec37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Skybox/Textures/CloudyCrown_Sunset_Down.png using Guid(dd10416b224641b459fe04b5eb7aec37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f78c729e2451325857c579f30ddf81e') in 0.0201491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_InAppPurchase.prefab
+  artifactKey: Guid(8305330bc92f14048a118c4c84a3451c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_InAppPurchase.prefab using Guid(8305330bc92f14048a118c4c84a3451c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'daf25eef13cabebabee2892e3d88fc8b') in 0.3287389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/Rotation.cs
+  artifactKey: Guid(6f78a6209bd4446ddb1fdca447ca7da3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Rotation.cs using Guid(6f78a6209bd4446ddb1fdca447ca7da3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cf604bd8ada9a3df4518c4567f49460') in 0.0130258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Models/Materials/Material.mat
+  artifactKey: Guid(1fe5c32632a7b4abf8f51dcedc1c41aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Materials/Material.mat using Guid(1fe5c32632a7b4abf8f51dcedc1c41aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80d63aa3ff9885d01ef3a0c217cafc29') in 0.0896807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/29.png
+  artifactKey: Guid(0e96fddd009c0dd43849b20e8ea0149c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/29.png using Guid(0e96fddd009c0dd43849b20e8ea0149c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbccc0d56c6ed6ce8413235eb1a54766') in 0.026511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_10.prefab
+  artifactKey: Guid(cbe8186deece1ff4db16f67c5e3e0eba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_10.prefab using Guid(cbe8186deece1ff4db16f67c5e3e0eba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a0f98d425a64eb3ac570dfeee5759db') in 0.0829096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_3.prefab
+  artifactKey: Guid(fb2c77132ed9097488d436c1df619255) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_3.prefab using Guid(fb2c77132ed9097488d436c1df619255) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f3d646c6e7b8a2280e3e9e2a89a2480') in 0.1348045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/37.png
+  artifactKey: Guid(d7796eaa14daa1c439dbb8a67be7f502) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/37.png using Guid(d7796eaa14daa1c439dbb8a67be7f502) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ccc3432f5bf7e0919e7015ee5c1a1cf') in 0.1736099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scenes/Main/ReflectionProbe-0.exr
+  artifactKey: Guid(23ebf1528f236824db94b4bce34ba0df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Main/ReflectionProbe-0.exr using Guid(23ebf1528f236824db94b4bce34ba0df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e10582cc0c5f4ffde198d23a000dd2d') in 0.0237707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/BackGround/BackGround_2.prefab
+  artifactKey: Guid(0f0e4921b3c2cff4098832a13e9eb14e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/BackGround/BackGround_2.prefab using Guid(0f0e4921b3c2cff4098832a13e9eb14e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03439f96baf2c0412aa822d81b64990f') in 0.0676262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/L.prefab
+  artifactKey: Guid(c81f39e67f02749b6808603b77033943) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/L.prefab using Guid(c81f39e67f02749b6808603b77033943) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77c534abc8ab8cbbcde3cbef856fe886') in 0.0383268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/47.png
+  artifactKey: Guid(c33ec48ee87d1d848b8a4bcbd0dc79a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/47.png using Guid(c33ec48ee87d1d848b8a4bcbd0dc79a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '733a47c4b336424fb51d4feaf5c7484f') in 0.084879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/cubeblend3.dae
+  artifactKey: Guid(c8017d417d5ea48c78bf9078e8152a99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/cubeblend3.dae using Guid(c8017d417d5ea48c78bf9078e8152a99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cce30e62c31257bef3c27699db0cb92') in 0.0453189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/3.png
+  artifactKey: Guid(0e9c189bc09deaa41998f12be950a7bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/3.png using Guid(0e9c189bc09deaa41998f12be950a7bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52f23abf15d7166a43462ed600257133') in 0.0234417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SFX/Jingle_Achievement_00.mp3
+  artifactKey: Guid(0a9177415caff4fc8ace0cae0ae19b20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SFX/Jingle_Achievement_00.mp3 using Guid(0a9177415caff4fc8ace0cae0ae19b20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63dfc5cfb2e9b0a7a1e2f7b9f5468f05') in 0.2772256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/42.png
+  artifactKey: Guid(eff0e9d913ae99549aca95e758972ff9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/42.png using Guid(eff0e9d913ae99549aca95e758972ff9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '852e58584f93a718a41ee430c0aa2052') in 0.1212313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/1.png
+  artifactKey: Guid(73fa6ec63e0ae0047b14f5c2dab35344) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/1.png using Guid(73fa6ec63e0ae0047b14f5c2dab35344) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e4fcd498b1eb1a3539cd229a647e8f8') in 0.1888849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/32.png
+  artifactKey: Guid(cc9aa0f0d4a0f3c46a1d8ee2c53d8a70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/32.png using Guid(cc9aa0f0d4a0f3c46a1d8ee2c53d8a70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '443562134425b9d2d5fc2fc4c3aafa1c') in 0.2561703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/L2.prefab
+  artifactKey: Guid(14125b05857d84fc1a861ee8bea8acd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/L2.prefab using Guid(14125b05857d84fc1a861ee8bea8acd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57fe9a4ba89f3d0f1225d9980039bfe5') in 0.041646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(d5e1611a428644f229134e1a3f5b0842) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/GameManager.cs using Guid(d5e1611a428644f229134e1a3f5b0842) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09c5716fbdbc262c8a6d79432e9a4243') in 0.0166353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/35.png
+  artifactKey: Guid(6ab5e8afc04e41c4ba35801f1d068a39) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/35.png using Guid(6ab5e8afc04e41c4ba35801f1d068a39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa8acfd629b01e6572a4379e60d0fa32') in 0.0617404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/36.png
+  artifactKey: Guid(85ef4131ccbcbf14a999113b2d5e0457) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/36.png using Guid(85ef4131ccbcbf14a999113b2d5e0457) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9697041f73223901152d2081114e6ec') in 0.1463182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/Main/LightingData.asset
+  artifactKey: Guid(90ab98414abb9c143a41d7ddb8188dbf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Main/LightingData.asset using Guid(90ab98414abb9c143a41d7ddb8188dbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bed0378564c69b3bde5bee5a4c25c2d1') in 0.3437141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Image/img_navView_Yellow.prefab
+  artifactKey: Guid(7c9f35037e2ae22489060657f2374668) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Image/img_navView_Yellow.prefab using Guid(7c9f35037e2ae22489060657f2374668) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b38a13a410312a6517af914dcefba789') in 0.1371295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Social_T.prefab
+  artifactKey: Guid(a095c1c50f3e0984fad4bb416844b9c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Social_T.prefab using Guid(a095c1c50f3e0984fad4bb416844b9c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92ee2de4c95d3227e37ff10d92aa515e') in 0.0946235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/21.png
+  artifactKey: Guid(57d90ab010575844ca0e38e2011a4e40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/21.png using Guid(57d90ab010575844ca0e38e2011a4e40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df2fd171108c2219e43ebdb5993be9d1') in 0.2238553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(5cd51d5a34e511447a9af4eb111effbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Universal Render Pipeline Asset_Renderer.asset using Guid(5cd51d5a34e511447a9af4eb111effbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acd4f95e941cd9dfb4f1d6f0f69250a0') in 0.0163501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
