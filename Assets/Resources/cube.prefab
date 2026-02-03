@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 306992496947391028}
   - component: {fileID: 306992496947391026}
   - component: {fileID: 306992496947391029}
-  - component: {fileID: 1653062464411459011}
   m_Layer: 0
   m_Name: cube
   m_TagString: Untagged
@@ -41,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 306992496947391031}
-  m_Mesh: {fileID: -5495902117074765545, guid: c8017d417d5ea48c78bf9078e8152a99, type: 3}
+  m_Mesh: {fileID: 0}
 --- !u!23 &306992496947391029
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -90,16 +89,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1653062464411459011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306992496947391031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7db3b45a1bcf0348a73f005813db213, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BarycentricCoordinates
-  hardEdgeAngle: 29.4

@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class Highscore : MonoBehaviour {
 	public int level, rows, points; 
-	public Text highscoreText, levelText, rowText; 
+	public TextMeshProUGUI highscoreText, levelText, rowText; 
 	// Use this for initialization
 	void Start () {
+		level = 0;
 		level = 0;
 		rows = 0; 
 		points = 0; 

@@ -1,21 +1,40 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-/*
- * This class spawn hold all existing cube groups and
- * can spawn a random one
- */
-public class GroupSpawner : MonoBehaviour {
-	
-	//All given groups
-	public GameObject[] groups; 
+public class GroupSpawner : MonoBehaviour
+{
+    public GameObject[] groups;
 
-	//Spawn the next group
-	public GameObject spawnNext(){
-		int i = Random.Range(0, groups.Length);
-		return Instantiate(groups[i],
-			new Vector3(3, 14),
-			Quaternion.identity);
-	}
+    private int currentIndex;
+    private int nextIndex;
+
+    void Awake()
+    {
+        currentIndex = Random.Range(0, groups.Length);
+        nextIndex = Random.Range(0, groups.Length);
+    }
+
+    // Spawn current WITHOUT changing next yet
+    public GameObject SpawnCurrent()
+    {
+        GameObject obj = Instantiate(
+            groups[currentIndex],
+            new Vector3(3, 14, 0),
+            Quaternion.identity
+        );
+
+        return obj;
+    }
+
+    // Advance queue AFTER piece is locked
+    public void AdvanceQueue()
+    {
+        currentIndex = nextIndex;
+        nextIndex = Random.Range(0, groups.Length);
+    }
+
+    // Preview always shows NEXT
+    public GameObject GetNextPrefab()
+    {
+        return groups[nextIndex];
+    }
 }

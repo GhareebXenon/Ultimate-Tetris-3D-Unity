@@ -6,12 +6,19 @@ using UnityEngine;
 public class Movement : MonoBehaviour {
 	public float timestep = 0.2F; 
 	float time;
- 
+
+    void Start()
+    {
+        
+
+        
+        GetComponent<NextPiecePreview>().UpdatePreview();
+    }
     //The actual group which can rotate and will move down
     public GameObject actualGroup; 
 
 	public void startGame(){
-		actualGroup = this.gameObject.GetComponent<GroupSpawner> ().spawnNext ();
+		actualGroup = this.gameObject.GetComponent<GroupSpawner> ().SpawnCurrent ();
 	}
     //Move down in interval of timestep
     void Update()
@@ -82,16 +89,29 @@ public class Movement : MonoBehaviour {
 		}
 	}
 
-	//Handle spawning a new group and check if there is any intersection after spawning
-	private void spawnNew(){
-		actualGroup.GetComponent<Rotation> ().isActive = false; 
-		actualGroup = gameObject.GetComponent<GroupSpawner> ().spawnNext ();
-		actualGroup.GetComponent<Rotation> ().isActive = true;
-		if (!gameObject.GetComponent<CubeArray> ().getCubePositionFromScene ()) {
-			// Game over :/
-			Application.LoadLevel (Application.loadedLevelName); 
-		} else {
-			gameObject.GetComponent<CubeArray> ().checkForFullLine ();
-		} 
-	}
+    //Handle spawning a new group and check if there is any intersection after spawning
+    private void spawnNew()
+    {
+        foreach (Transform block in actualGroup.transform)
+            block.tag = "Cube";
+
+        GroupSpawner spawner = GetComponent<GroupSpawner>();
+
+        // advance queue BEFORE spawning
+        spawner.AdvanceQueue();
+
+        actualGroup = spawner.SpawnCurrent();
+
+        // update preview AFTER advance
+        GetComponent<NextPiecePreview>().UpdatePreview();
+
+        if (!GetComponent<CubeArray>().getCubePositionFromScene())
+        {
+            Application.LoadLevel(Application.loadedLevelName);
+        }
+        else
+        {
+            GetComponent<CubeArray>().checkForFullLine();
+        }
+    }
 }
