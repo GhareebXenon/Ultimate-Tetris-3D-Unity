@@ -9,11 +9,11 @@ public class NextPiecePreview : MonoBehaviour
 
     public void UpdatePreview()
     {
-        Debug.Log("UpdatePreview CALLED");
+        
 
         if (spawner == null || previewAnchor == null)
         {
-            Debug.LogError("Spawner or Anchor NOT assigned");
+            
             return;
         }
 
@@ -21,7 +21,7 @@ public class NextPiecePreview : MonoBehaviour
             Destroy(previewObject);
 
         GameObject prefab = spawner.GetNextPrefab();
-        Debug.Log("Next prefab: " + prefab.name);
+        
 
         previewObject = Instantiate(prefab);
         previewObject.transform.position = previewAnchor.position;

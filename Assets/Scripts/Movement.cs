@@ -1,117 +1,118 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Movement : MonoBehaviour {
-	public float timestep = 0.2F; 
-	float time;
+public class Movement : MonoBehaviour
+{
+    public float timestep = 0.2f;
+    private float time;
 
+    // The actual group which can rotate and will move down
+    public GameObject actualGroup;
+    public void startGame() { actualGroup = GetComponent<GroupSpawner>().SpawnCurrent(); }
     void Start()
     {
-        
+        // Spawn first piece
+        //startGame();
 
-        
-        GetComponent<NextPiecePreview>().UpdatePreview();
+        // Update next preview
+        GetComponent<NextPiecePreview>()?.UpdatePreview();
     }
-    //The actual group which can rotate and will move down
-    public GameObject actualGroup; 
 
-	public void startGame(){
-		actualGroup = this.gameObject.GetComponent<GroupSpawner> ().SpawnCurrent ();
-	}
-    //Move down in interval of timestep
     void Update()
     {
         if (actualGroup == null)
-            return; //  do nothing until a group exists
+            return;
 
+        // Handle automatic fall
         time += Time.deltaTime;
         if (time > timestep)
         {
             time = 0;
-            move(Vector3.down);
+            Move(Vector3.down);
         }
 
-        checkForInput();
+        CheckForInput();
     }
 
-
-    void checkForInput()
+    void CheckForInput()
     {
-        if (actualGroup == null) return;
+        if (actualGroup == null)
+            return;
 
+        // Rotate
         if (Input.GetKeyDown(KeyCode.R))
-        {
             actualGroup.GetComponent<Rotation>().rotateRight();
-        }
-        else if (Input.GetKeyDown(KeyCode.L))
-        {
+        if (Input.GetKeyDown(KeyCode.L))
             actualGroup.GetComponent<Rotation>().rotateLeft();
-        }
 
+        // Move sideways
         if (Input.GetKeyDown(KeyCode.A))
-        {
-            move(Vector3.left);
-        }
-        else if (Input.GetKeyDown(KeyCode.D))
-        {
-            move(Vector3.right);
-        }
+            Move(Vector3.left);
+        if (Input.GetKeyDown(KeyCode.D))
+            Move(Vector3.right);
 
+        // Fast drop
         if (Input.GetKey(KeyCode.S))
-        {
-            timestep = 0.05F;
-        }
+            timestep = 0.05f;  // <---- fast drop
         else
-        {
-            setNewSpeed();
-        }
+            SetNewSpeed();
 
+        // Update cube positions
         GetComponent<CubeArray>().getCubePositionFromScene();
     }
 
-
-
-    //Speed increasement found at http://www.colinfahey.com/tetris/tetris.html 5.10 
-    public void setNewSpeed(){
-		timestep = ((10 - gameObject.GetComponent<Highscore> ().level) * 0.05F);
-	}
-
-	void move(Vector3 pos){
-		actualGroup.transform.position += pos; 
-		if (!gameObject.GetComponent<CubeArray> ().getCubePositionFromScene ()) {
-			actualGroup.transform.position -= pos; 
-			GameObject.Find("CantMove").GetComponent<AudioSource>().Play();
-			if(pos == Vector3.down){
-				spawnNew (); 
-			}
-		}
-	}
-
-    //Handle spawning a new group and check if there is any intersection after spawning
-    private void spawnNew()
+    // Normal speed based on level
+    public void SetNewSpeed()
     {
+        timestep = ((10 - GetComponent<Highscore>().level) * 0.05f);
+    }
+
+    void Move(Vector3 dir)
+    {
+        actualGroup.transform.position += dir;
+
+        // Check collision with grid
+        if (!GetComponent<CubeArray>().IsValidPosition(actualGroup.transform))
+        {
+            actualGroup.transform.position -= dir;
+            GameObject.Find("CantMove")?.GetComponent<AudioSource>()?.Play();
+
+            if (dir == Vector3.down)
+                SpawnNew();
+        }
+    }
+
+    void SpawnNew()
+    {
+        actualGroup.GetComponent<Rotation>().isActive = false;
+
+        // Lock the blocks
         foreach (Transform block in actualGroup.transform)
-            block.tag = "Cube";
+            block.tag = "LockedCube";
 
         GroupSpawner spawner = GetComponent<GroupSpawner>();
 
-        // advance queue BEFORE spawning
+        // Advance queue before spawning new piece
         spawner.AdvanceQueue();
 
+        // Spawn next piece
         actualGroup = spawner.SpawnCurrent();
+        actualGroup.GetComponent<Rotation>().isActive = true;
 
-        // update preview AFTER advance
-        GetComponent<NextPiecePreview>().UpdatePreview();
+        // Update preview
+        GetComponent<NextPiecePreview>()?.UpdatePreview();
 
-        if (!GetComponent<CubeArray>().getCubePositionFromScene())
+        // Check spawn collision (Game Over)
+        if (GetComponent<CubeArray>().IsValidPosition(actualGroup.transform))
         {
-            Application.LoadLevel(Application.loadedLevelName);
+            GetComponent<CubeArray>().checkForFullLine();
         }
         else
         {
-            GetComponent<CubeArray>().checkForFullLine();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
         }
     }
 }

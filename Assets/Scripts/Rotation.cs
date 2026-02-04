@@ -6,62 +6,64 @@ using UnityEngine;
  * This class is for cube groups rotation 
  */
 public class Rotation : MonoBehaviour {
-	public bool isActive; 
-	int rotAngel = 0; 
-	Vector3[][] rotation; 
-	public Transform[] blocks; 
-	public string type; 
-	CubeArray cA; 
+    public bool isActive;
+    int rotAngel = 0;
+    Vector3[][] rotation;
+    public Transform[] blocks;
+    public string type;
 
+    CubeArray cA;
 
-	// Use this for initialization
-	void Awake () { 
-		cA = Camera.main.GetComponent<CubeArray> (); 
-		//Assign the 4 blocks of each group 
-		blocks = new Transform[4]; 
-		for (int i = 0; i < transform.childCount; i++) {
-			blocks [i] = transform.GetChild (i); 
-		}
-		getRotByType (type); 
-	}
+    void Awake()
+    {
+        cA = Camera.main.GetComponent<CubeArray>();
 
-	//Perform rotation to left side
-	public void rotateLeft(){
-		rotAngel = getRotAngle (rotAngel + 90); 
-		rotate (rotAngel / 90); 
-		if (!cA.getCubePositionFromScene()) {
-			rotateRight (); 
-			GameObject.Find("CantMove").GetComponent<AudioSource>().Play();
-		} 
-	}
+        blocks = new Transform[4];
+        for (int i = 0; i < transform.childCount; i++)
+            blocks[i] = transform.GetChild(i);
 
-	//Perform rotation clockwards
-	public void rotateRight(){
-		rotAngel = getRotAngle (rotAngel - 90); 
-		rotate (rotAngel / 90); 
-		if (!cA.getCubePositionFromScene ()) {
-			rotateLeft (); 
-			GameObject.Find("CantMove").GetComponent<AudioSource>().Play();
-		} 
-	}
-		
-	int getRotAngle(int angle){
-		if (angle < 0)
-			return 360 + angle;
-		else if (angle > 270)
-			return 0; 
-		return angle; 
-	}
+        getRotByType(type);
+    }
 
-	//Rotate the blocks to position pos
-	void rotate(int pos){
-		for (int i = 0; i < blocks.Length; i++) {
-			blocks [i].localPosition = rotation [pos] [i]; 
-		}
-	}
+    public void rotateLeft()
+    {
+        rotAngel = getRotAngle(rotAngel + 90);
+        rotate(rotAngel / 90);
 
-	//Get the rotation pattern by type of the group 
-	void getRotByType(string type){
+        if (!cA.IsValidPosition(transform))
+        {
+            rotateRight();
+            GameObject.Find("CantMove")?.GetComponent<AudioSource>()?.Play();
+        }
+    }
+
+    public void rotateRight()
+    {
+        rotAngel = getRotAngle(rotAngel - 90);
+        rotate(rotAngel / 90);
+
+        if (!cA.IsValidPosition(transform))
+        {
+            rotateLeft();
+            GameObject.Find("CantMove")?.GetComponent<AudioSource>()?.Play();
+        }
+    }
+
+    int getRotAngle(int angle)
+    {
+        if (angle < 0) return 360 + angle;
+        if (angle > 270) return 0;
+        return angle;
+    }
+
+    void rotate(int pos)
+    {
+        for (int i = 0; i < blocks.Length; i++)
+            blocks[i].localPosition = rotation[pos][i];
+    }
+
+    //Get the rotation pattern by type of the group 
+    void getRotByType(string type){
 		if (type == "I") {
 			Vector3[] rot0 = new Vector3[] {
 				new Vector3 (0,0,0),

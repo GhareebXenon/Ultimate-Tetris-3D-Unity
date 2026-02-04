@@ -25,9 +25,9 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _EdgeWidth: 0.00644
+    - _EdgeWidth: 0.00744
     - _GlowIntensity: 0.83
-    - _GlowWidth: 0.0159
+    - _GlowWidth: 0.0193
     m_Colors:
     - _EdgeColor: {r: 0.2979853, g: 1, b: 0.09803921, a: 1}
     - _GlowColor: {r: 0.07193306, g: 0.21698111, b: 0.044010323, a: 0.8862745}

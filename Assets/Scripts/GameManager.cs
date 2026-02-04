@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour {
 	public void OnClickStart(){
 		Time.timeScale = 1; 
 		window.SetActive (false); 
-		this.gameObject.GetComponent<Movement> ().startGame (); 
+		this.gameObject.GetComponent<Movement> ().startGame(); 
 	}
 
 	public void OnClickExit(){

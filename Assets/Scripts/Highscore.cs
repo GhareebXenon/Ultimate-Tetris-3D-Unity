@@ -12,7 +12,7 @@ public class Highscore : MonoBehaviour {
 		level = 0;
 		rows = 0; 
 		points = 0; 
-		gameObject.GetComponent<Movement>().setNewSpeed(); 
+		gameObject.GetComponent<Movement>().SetNewSpeed(); 
 	}
 	
 
@@ -35,7 +35,7 @@ public class Highscore : MonoBehaviour {
 			}
 			rows += lines; 
 			level = (int)rows/10; 
-			gameObject.GetComponent<Movement>().setNewSpeed(); 
+			gameObject.GetComponent<Movement>().SetNewSpeed(); 
 			transmitToUI (); 
 		}
 	}
