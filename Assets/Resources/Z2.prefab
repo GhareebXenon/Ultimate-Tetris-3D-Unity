@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 2726486482314356106}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -62,7 +62,7 @@ PrefabInstance:
     - target: {fileID: 511490814042685439, guid: 59f53938417176a4ba8e13a0642fedfb,
         type: 3}
       propertyPath: m_Name
-      value: CubeDone (1)
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1160200425502956329, guid: 59f53938417176a4ba8e13a0642fedfb,
         type: 3}
@@ -141,7 +141,7 @@ PrefabInstance:
     - target: {fileID: 511490814042685439, guid: 59f53938417176a4ba8e13a0642fedfb,
         type: 3}
       propertyPath: m_Name
-      value: CubeDone (2)
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1160200425502956329, guid: 59f53938417176a4ba8e13a0642fedfb,
         type: 3}
@@ -220,7 +220,7 @@ PrefabInstance:
     - target: {fileID: 511490814042685439, guid: 59f53938417176a4ba8e13a0642fedfb,
         type: 3}
       propertyPath: m_Name
-      value: CubeDone (3)
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1160200425502956329, guid: 59f53938417176a4ba8e13a0642fedfb,
         type: 3}
@@ -299,7 +299,7 @@ PrefabInstance:
     - target: {fileID: 511490814042685439, guid: 59f53938417176a4ba8e13a0642fedfb,
         type: 3}
       propertyPath: m_Name
-      value: CubeDone
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1160200425502956329, guid: 59f53938417176a4ba8e13a0642fedfb,
         type: 3}

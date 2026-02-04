@@ -27,27 +27,34 @@ public class Rotation : MonoBehaviour {
 
     public void rotateLeft()
     {
+        int previousAngle = rotAngel;
+
         rotAngel = getRotAngle(rotAngel + 90);
         rotate(rotAngel / 90);
 
         if (!cA.IsValidPosition(transform))
         {
-            rotateRight();
+            rotAngel = previousAngle;
+            rotate(rotAngel / 90);
             GameObject.Find("CantMove")?.GetComponent<AudioSource>()?.Play();
         }
     }
 
     public void rotateRight()
     {
+        int previousAngle = rotAngel;
+
         rotAngel = getRotAngle(rotAngel - 90);
         rotate(rotAngel / 90);
 
         if (!cA.IsValidPosition(transform))
         {
-            rotateLeft();
+            rotAngel = previousAngle;
+            rotate(rotAngel / 90);
             GameObject.Find("CantMove")?.GetComponent<AudioSource>()?.Play();
         }
     }
+
 
     int getRotAngle(int angle)
     {
@@ -170,21 +177,26 @@ public class Rotation : MonoBehaviour {
 				new Vector3 (1,-1,0)
 			};
 			rotation = new Vector3[][]{ rot0, rot90, rot0, rot90 };
-		} else if (type == "Z2") {
-			Vector3[] rot0 = new Vector3[] {
-				new Vector3 (1,0,0),
-				new Vector3 (0,0,0),
-				new Vector3 (2,-1,0),
-				new Vector3 (1,-1,0)
-			};
-			Vector3[] rot90 = new Vector3[] {
-				new Vector3 (2,0,0),
-				new Vector3 (1, 0, 0),
-				new Vector3 (2,1, 0),
-				new Vector3 (1,-1,0)
-			};
-			rotation = new Vector3[][]{ rot0, rot90, rot0, rot90 };
-		} else if (type == "O") {
+		}
+        else if (type == "Z2")
+        {
+            Vector3[] rot0 = new Vector3[] {
+        new Vector3 (0,0,0),
+        new Vector3 (1,0,0),
+        new Vector3 (1,-1,0),
+        new Vector3 (2,-1,0)
+    };
+
+            Vector3[] rot90 = new Vector3[] {
+        new Vector3 (1,1,0),
+        new Vector3 (1,0,0),
+        new Vector3 (0,0,0),
+        new Vector3 (0,-1,0)
+    };
+
+            rotation = new Vector3[][] { rot0, rot90, rot0, rot90 };
+        }
+        else if (type == "O") {
 			Vector3[] rot0 = new Vector3[] {
 				new Vector3(0,0,0), 
 				new Vector3(1,0,0),

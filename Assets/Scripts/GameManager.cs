@@ -5,16 +5,25 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 	public GameObject startButton, window, windowPause, pauseBtn;
-
+	public Button strtBtn;
 	// Use this for initialization
 	void Awake () {
 		Time.timeScale = 0; 
 	}
-
-	public void OnClickStart(){
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+		{
+            Time.timeScale = 0F;
+            windowPause.SetActive(true);
+        }
+    }
+    public void OnClickStart(){
 		Time.timeScale = 1; 
-		window.SetActive (false); 
-		this.gameObject.GetComponent<Movement> ().startGame(); 
+		window.SetActive (false);
+        strtBtn.interactable = false;
+
+        this.gameObject.GetComponent<Movement> ().startGame(); 
 	}
 
 	public void OnClickExit(){
@@ -23,15 +32,15 @@ public class GameManager : MonoBehaviour {
 
 	public void OnClickRestart(){
 		windowPause.SetActive (false); 
-		Application.LoadLevel (Application.loadedLevelName); 
+		Application.LoadLevel(Application.loadedLevelName); 
 	}
 
 	public void OnClickPause(){
 		pauseBtn.GetComponent<Button> ().interactable = false; 
 		Time.timeScale = 0F;
-		windowPause.SetActive (true); 
+		//windowPause.SetActive (true); 
 	}
-
+	
 	public void OnClickContinue(){
 		pauseBtn.GetComponent<Button> ().interactable = true; 
 		Time.timeScale = 1F;
