@@ -25,7 +25,7 @@ public class NextPiecePreview : MonoBehaviour
 
         previewObject = Instantiate(prefab);
         previewObject.transform.position = previewAnchor.position;
-        previewObject.transform.localScale = Vector3.one * 1.2f;
+        previewObject.transform.localScale = Vector3.one * 0.6f;
 
         foreach (Transform block in previewObject.transform)
             block.tag = "Untagged";

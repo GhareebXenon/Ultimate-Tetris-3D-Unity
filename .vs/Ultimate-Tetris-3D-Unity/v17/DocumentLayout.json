@@ -1,50 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\",
+  "WorkspaceRootPath": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\highscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\highscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|g:\\projects\\github\\ultimate-tetris-3d-unity\\assets\\scripts\\enableseconddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enableseconddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|g:\\githup\\ultimate-tetris-3d-unity\\assets\\scripts\\cubearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\nextpiecepreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\nextpiecepreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nextpiecepreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\ghostpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ghostpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\fastdropbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fastdropbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\highscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\highscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\cubearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\groupspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groupspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\gridcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\assets\\scripts\\barycentriccoordinates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\barycentriccoordinates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\assets\\shaders\\urp edge stroke shader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\urp edge stroke shader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\assets\\shaders\\clockwiseborderpulse.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{CA6890EA-A3A7-25D3-F97C-2BE6AEC09911}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\clockwiseborderpulse.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,141 +46,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T19:22:28.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GhostPiece.cs",
-              "DocumentMoniker": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\GhostPiece.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GhostPiece.cs",
-              "ToolTip": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\GhostPiece.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GhostPiece.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T17:57:26.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NextPiecePreview.cs",
-              "DocumentMoniker": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\NextPiecePreview.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NextPiecePreview.cs",
-              "ToolTip": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\NextPiecePreview.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NextPiecePreview.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T05:21:43.728Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Highscore.cs",
-              "DocumentMoniker": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\Highscore.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Highscore.cs",
-              "ToolTip": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\Highscore.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Highscore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Title": "EnableSecondDisplay.cs",
+              "DocumentMoniker": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\EnableSecondDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnableSecondDisplay.cs",
+              "ToolTip": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\EnableSecondDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnableSecondDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T02:51:30.537Z",
+              "WhenOpened": "2026-02-05T19:58:29.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CubeArray.cs",
-              "DocumentMoniker": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\CubeArray.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CubeArray.cs",
-              "ToolTip": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\CubeArray.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CubeArray.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAwwFoAAAAKAAAAAAAAAA==",
+              "Title": "NextPiecePreview.cs",
+              "DocumentMoniker": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\NextPiecePreview.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NextPiecePreview.cs",
+              "ToolTip": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\NextPiecePreview.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NextPiecePreview.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T23:36:12.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T19:25:04.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FastDropButton.cs",
+              "DocumentMoniker": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\FastDropButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FastDropButton.cs",
+              "ToolTip": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\FastDropButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FastDropButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T22:07:52.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
+              "ToolTip": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\Movement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Movement.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwv0AAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T21:40:18.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Highscore.cs",
+              "DocumentMoniker": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\Highscore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Highscore.cs",
+              "ToolTip": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\Highscore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Highscore.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T19:51:06.18Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
-              "ToolTip": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\Movement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Movement.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAG0AAAA2AAAAAAAAAA==",
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T23:34:49.948Z"
+              "WhenOpened": "2026-02-04T18:21:45.368Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Rotation.cs",
-              "DocumentMoniker": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\Rotation.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Rotation.cs",
-              "ToolTip": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\Rotation.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Rotation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "CubeArray.cs",
+              "DocumentMoniker": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\CubeArray.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CubeArray.cs",
+              "ToolTip": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\CubeArray.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CubeArray.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAkwBIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T23:33:30.64Z"
+              "WhenOpened": "2026-02-04T15:28:45.57Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GroupSpawner.cs",
-              "DocumentMoniker": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\GroupSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GroupSpawner.cs",
-              "ToolTip": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\GroupSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GroupSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "Title": "Rotation.cs",
+              "DocumentMoniker": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\Rotation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Rotation.cs",
+              "ToolTip": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\Rotation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Rotation.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAkwMYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T23:25:06.31Z"
+              "WhenOpened": "2026-02-04T15:23:11.23Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "GridCreator.cs",
-              "DocumentMoniker": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\GridCreator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GridCreator.cs",
-              "ToolTip": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\GridCreator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GridCreator.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAmwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T19:52:57.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "URP Edge Stroke Shader.shader",
-              "DocumentMoniker": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Shaders\\URP Edge Stroke Shader.shader",
-              "RelativeDocumentMoniker": "Assets\\Shaders\\URP Edge Stroke Shader.shader",
-              "ToolTip": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Shaders\\URP Edge Stroke Shader.shader",
-              "RelativeToolTip": "Assets\\Shaders\\URP Edge Stroke Shader.shader",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAqwGQAAAANAAAAAAAAAA==",
+              "Title": "ClockWiseBorderPulse.shader",
+              "DocumentMoniker": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Shaders\\ClockWiseBorderPulse.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\ClockWiseBorderPulse.shader",
+              "ToolTip": "G:\\Projects\\GitHub\\Ultimate-Tetris-3D-Unity\\Assets\\Shaders\\ClockWiseBorderPulse.shader",
+              "RelativeToolTip": "Assets\\Shaders\\ClockWiseBorderPulse.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-02-02T19:36:32.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BaryCentricCoordinates.cs",
-              "DocumentMoniker": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\BaryCentricCoordinates.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BaryCentricCoordinates.cs",
-              "ToolTip": "G:\\GITHUP\\Ultimate-Tetris-3D-Unity\\Assets\\Scripts\\BaryCentricCoordinates.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BaryCentricCoordinates.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA8wCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T19:33:33.36Z"
+              "WhenOpened": "2026-02-04T13:31:30.166Z"
             }
           ]
         }
